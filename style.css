@@ -1,0 +1,27 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox container to center the logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+}
+
+/* Logo styling */
+.google-logo {
+    max-width: 100%;
+    height: auto;
+    width: 300px; /* Adjust the size of the logo */
+}
+
+h1 {
+    color: #333;
+}
